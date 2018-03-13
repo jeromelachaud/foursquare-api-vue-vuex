@@ -5,9 +5,7 @@ import App from './App'
 import store from './store/'
 import router from './router'
 import VueResource from 'vue-resource'
-import { sync } from 'vuex-router-sync'
 
-sync(store, router)
 Vue.use(VueResource)
 Vue.config.productionTip = false
 
